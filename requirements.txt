@@ -1,1 +1,2 @@
-pyttest
+pytest~=8.2.2
+setuptools~=41.2.0

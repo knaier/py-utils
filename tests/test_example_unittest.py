@@ -1,5 +1,6 @@
 import unittest
-from src.classes import Dog
+from py_learning.core.classes import Dog
+
 
 class DogTest(unittest.TestCase):
     """ Tests for dog """
@@ -7,6 +8,10 @@ class DogTest(unittest.TestCase):
     def test_sit(self):
         print("test sitting")
         self.assertTrue(True)
+
+    def setUp(self) -> None:
+        print("Setup")
+
 
 if __name__ == '__main__':
     unittest.main()
