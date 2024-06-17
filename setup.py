@@ -5,7 +5,7 @@ if __name__ == '__main__':
 # from setuptools import setup, find_packages
 # setup(name='melhousing', 
 #     version='1.0', 
-#     packages=find_packages(include=['melhousing']))
+#     packages=find_packages(include=['py_learning']))
 
 # if __name__ == '__main__':
 #     setup()
