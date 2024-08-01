@@ -14,3 +14,6 @@ install the folder py_utils as a package, with pip install -e . by either config
 - python3 -m pip install --upgrade pip setuptools wheel
 - python3 -m pip install -r requirements.txt --upgrade
 - pytest -> run the tests
+
+## GitHub Workflow
+Based on https://github.com/actions/starter-workflows/blob/main/ci/python-package-conda.yml
