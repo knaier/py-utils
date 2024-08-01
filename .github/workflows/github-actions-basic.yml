@@ -2,7 +2,7 @@ name: py_utils
 on: [push]
 jobs:
   build:
-    runs-on: linux
+    runs-on: linux-latest
     strategy:
       matrix:
         python-version: [3.12.4]
