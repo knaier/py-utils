@@ -2,10 +2,10 @@ name: py_utils
 on: [push]
 jobs:
   build:
-    runs-on: win32-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.12.4]
+        python-version: [3.11.9]
     steps:
     - uses: actions/checkout@v3
     - name: Setup Python ${{ matrix.python-version }}
