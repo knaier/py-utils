@@ -1,4 +1,9 @@
 pytest~=8.2.2
 setuptools~=41.2.0
 scipy
-logging
+logger
+pyspark
+pandas
+configparser
+setuptools
+#distutils2
