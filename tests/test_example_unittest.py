@@ -1,6 +1,5 @@
 import unittest
-from py_learning.core.classes import Dog
-
+from py_utils_knaier.core.classes import Dog
 
 class DogTest(unittest.TestCase):
     """ Tests for dog """

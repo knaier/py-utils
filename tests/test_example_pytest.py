@@ -1,5 +1,5 @@
 import pytest
-from py_learning.core.classes import Dog
+from py_utils_knaier.core.classes import Dog
 
 
 @pytest.fixture

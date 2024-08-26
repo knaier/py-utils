@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py_utils_knaier"
+version = "0.0.1"
+authors = [
+  { name="Kieran S", email="knaier007@gmail.com" },
+]
+description = "Utilities"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["py_utils_knaier"]

@@ -17,3 +17,14 @@ install the folder py_utils as a package, with pip install -e . by either config
 
 ## GitHub Workflow
 Based on https://github.com/actions/starter-workflows/blob/main/ci/python-package-conda.yml
+
+## Building 
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- py -m pip install --upgrade build
+- py -m build
+  - This builds into dist - tar ball (src) + wheel (built distribution)
+- https://test.pypi.org/
+  - Setu twine (py -m pip install --upgrade twine)
+- py -m twine upload --repository testpypi dist/*
+- Uploads to https://test.pypi.org/project/py-utils-knaier/0.0.1/
+- Can be imported via pip install -i https://test.pypi.org/simple/ py-utils-knaiera==0.0.1

@@ -7,3 +7,4 @@ pandas
 configparser
 setuptools
 #distutils2
+numpy
